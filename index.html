@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informacoes dos Membros: Sinais Nitidos VIP @VipSinaisOB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .on {
+            color: green;
+            font-weight: bold;
+        }
+        .off {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Informacoes dos Membros: Sinais Nitidos VIP @VipSinaisOB</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Entrada</th>
+    <th>Saida</th>
+    <th>Status</th>
+    <th>Premium</th>
+  </tr>
+  <tr>
+    <td>Leomathh</td>
+    <td></td>
+    <td></td>
+    <td class="on">ON</td>
+    <td>Dono</td>
+  </tr>
+  <tr>
+    <td>Kallebe</td>
+    <td></td>
+    <td></td>
+    <td class="on">ON</td>
+    <td>Dono</td>
+  </tr>
+  <tr>
+    <td>Bot</td>
+    <td></td>
+    <td></td>
+    <td class="on">ON</td>
+    <td>Bot</td>
+  </tr>
+  <tr>
+    <td>TradeWithNoName</td>
+    <td>15/11</td>
+    <td>22/11</td>
+    <td class="on">ON</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>Whiteness</td>
+    <td>15/11</td>
+    <td>22/11</td>
+    <td class="off">OFF</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>937 Julio Cesar</td>
+    <td>15/11</td>
+    <td>22/11</td>
+    <td class="on">ON</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>Anderson Aurelio</td>
+    <td>15/11</td>
+    <td>22/11</td>
+    <td class="on">ON</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+    <td>(emoji) Fabio</td>
+    <td>15/11</td>
+    <td>30/11</td>
+    <td class="off">OFF</td>
+    <td>Free2</td>
+  </tr>
+  <tr>
+    <td>Isaque Prado</td>
+    <td>15/11</td>
+    <td>30/11</td>
+    <td class="on">ON</td>
+    <td>Free2</td>
+  </tr>
+  <tr>
+    <td>Chandrasekhar</td>
+    <td>15/11</td>
+    <td>22/11</td>
+    <td class="on">ON</td>
+    <td>Free</td>
+  </tr>
+  <tr>
+  <td>Birrow</td>
+  <td>15/11</td>
+  <td>30/11</td>
+  <td class="on">ON</td>
+  <td>Free2</td>
+</tr>
+</table>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var totalON = document.querySelectorAll('.on').length;
+    var membros = document.createElement("p");
+    membros.textContent = "Atualmente: " + totalON + " membros.";
+    document.body.appendChild(membros);
+  });
+</script>
+
+</body>
+</html>
