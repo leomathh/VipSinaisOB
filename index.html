@@ -47,7 +47,10 @@
 </head>
 <body>
 
-<h1>Informacoes dos Membros: Sinais Nitidos VIP @VipSinaisOB</h1>
+<h1>Informacoes dos Membros: Sinais Nitidos VIP @VipSinaisOB</h1>																 
+<div>
+  <p id="totalMembros" style="text-align: center; color: blue;"></p>
+</div>
 
 <table>
   <tr>
@@ -156,7 +159,7 @@
     var membros = document.createElement("p");
     membros.textContent = "Atualmente: " + totalON + " membros.";
     membros.style.color = "blue";
-	document.body.appendChild(membros);
+	document.getElementById("totalMembros").appendChild(membros);
   });
 </script>
 
